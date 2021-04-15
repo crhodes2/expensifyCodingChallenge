@@ -1,0 +1,229 @@
+body {
+    background: lightgray;
+}
+
+.auth__container {
+    width: 100%; /*fills entire page with width of 100 %*/
+    height: 100vh; /*fills entire page with height of view height 100*/
+    background-color: #f8f8f8; /* fills entire page bg except content inside container*/
+    display: flex; /*push it to the center to avoid a carousel look a like */
+    justify-content: center; /*all items within this container are at the center*/
+    align-items: center; /*pushes the top and bottom of container down*/
+}
+
+.transactionContainer {
+    width: 100%; /*fills entire page with width of 100 %*/
+    height: 100vh; /*fills entire page with height of view height 100*/
+    background-color:transparent;
+}
+
+#transactionTable {
+    background-color: white;
+}
+
+#transactionTable table {
+    background-color: rgb(255, 244, 197);
+}
+
+#transactionTable h1 {
+    text-align: center;
+}
+
+#transactionTable thead {
+    font-weight: bold;
+}
+
+#transactionTable tbody {
+    font-style: italic;
+}
+
+.loginContent {
+    background: white;
+    padding: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+
+.authenticate-me {
+    flex-direction: column;
+    padding: 10px;
+    display: flex;
+}
+
+.authenticate-me p {
+    padding: 0px;
+    margin: 5px;
+}
+
+.authenticate-me input {
+    border-radius: 5px;
+}
+
+.authenticate-me p {
+    color: black;
+}
+
+.exp-logo {
+    height: 300px;
+}
+
+.app-btn {
+    background-image: linear-gradient(to left, #FFC600  0%, #2DCB70 51%, #3D7EAA  100%)
+}
+
+.app-btn {
+   margin: 10px;
+   padding: 8px 55px;
+   text-align: center;
+   border: none;
+   height: 40px;
+   cursor: pointer;
+   font-size: 15px;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .app-btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .app-btn:focus {
+     outline: none;
+ }
+
+ .submitBtn {
+    background-image: linear-gradient(to left, #FFC600  0%, #2DCB70 51%, #3D7EAA  100%)
+
+}
+
+.submitBtn {
+    margin: 10px;
+    padding: 8px 55px;
+    text-align: center;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+  }
+
+.submitBtn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+.submitBtn:focus {
+      outline: none;
+  }
+
+
+.closeBtn {
+    background-image: linear-gradient(to left, #FFC600  0%, #2DCB70 51%, #3D7EAA  100%)
+
+}
+
+.closeBtn {
+    text-align: center;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+  }
+
+.closeBtn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+.closeBtn:focus {
+      outline: none;
+  }
+
+
+ #test {
+    display:none;
+}
+
+.transactionTableBody {
+    background-color: green;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+thead {
+  background-color: #f2f2f2;
+  }
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+.navbar-collapse {
+    text-align: end;
+}
+
+.form {
+	background: #ffffff;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	margin: 0 auto 3rem;
+	max-width: 360px;
+	padding: 45px;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+    visibility: hidden;
+}
+
+#transactionForm.form {
+    flex-direction: column;
+    padding: 10px;
+    margin-top: -25em;
+    display: flex;
+
+}
+
+#transactionForm.form label {
+    padding: 0px;
+    margin: 5px;
+    display: grid;
+
+
+}
+
+#transactionForm.form input {
+    border-radius: 5px;
+
+
+}
+
+
