@@ -38,7 +38,7 @@ function logMeIn() {
    };
 
   // Locate the localhost php proxy file for auth *XAMPP server installation required*
-  const url = "http://localhost/auth/auth.php";
+  const url = "http://localhost/proxy/auth.php";
 
   // Talk to the PHP Auth Proxy to request entry to API server
    $.get(url, args, (msg)=>{
@@ -90,7 +90,7 @@ function displayHomePage(x, y) {
     };
 
     // Talk to the PHP Data Proxy to request most updated transaction list
-    const data_url = "http://localhost/auth/data.php";
+    const data_url = "http://localhost/proxy/data.php";
     $.get(data_url, args2, (my_msg)=>{
         a_Data = JSON.parse(my_msg);
         GV_TRANS=a_Data.transactionList;
@@ -154,7 +154,7 @@ function submitForm() {
     };
 
     // Talk to the PHP Data Proxy to request most updated transaction list
-    const data_entry_url = "http://localhost/auth/addData.php";
+    const data_entry_url = "http://localhost/proxy/addData.php";
     $.get(data_entry_url, args3, (my_msg)=>{
         new_Data = JSON.parse(my_msg);
         GV_TRANS=new_Data.transactionList;
